@@ -1,11 +1,7 @@
 package test;
 
 public class StringFunctions {
-	
-	
 	public static boolean isPalindrome(String str) {
-		
-		
 		 // Pointers pointing to the beginning 
         // and the end of the string 
         int i = 0, j = str.length() - 1; 
@@ -23,7 +19,7 @@ public class StringFunctions {
             j--; 
         } 
   
-        // Given string is a palindrome 
+        // Given string is a Palindrome 
         return true; 
 		
 	}
