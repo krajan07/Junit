@@ -4,12 +4,14 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-public class ClassBTest 
-{
-	@Tag("production")
+public class ClassBTest {
+	
+	@Tag("Sanity")
+	@DisplayName("First Junit in Class B")
 	@Test
-	@DisplayName("testCaseB inside ClassBTest inside packageB")
-	public void testCaseB() {
+	public void Test2() {
 		
+		System.out.println("Inside Test2");
 	}
+
 }
