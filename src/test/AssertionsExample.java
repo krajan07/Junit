@@ -1,7 +1,6 @@
 package test;
 
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
@@ -17,7 +16,7 @@ public class AssertionsExample {
 		String expected = "Hi There";
 		String actual = "Hi There";
 		
-		
+		//import org.junit.jupiter.api.Assertions;
 		//Assertions.assertEquals(expected, actual);
 		assertEquals(expected, actual);
 		
